@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-04-10T09:37:49.766322Z</date>
+  <millis>1618047469766</millis>
+  <nanos>322000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Starting operations to define the bugs...
+</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-04-10T09:40:40.344987Z</date>
+  <millis>1618047640344</millis>
+  <nanos>987000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Starting operations to define the bugs...
+</message>
+</record>
+<record>
+  <date>2021-04-10T09:42:23.700889Z</date>
+  <millis>1618047743700</millis>
+  <nanos>889000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>SEVERE</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>errorLog</method>
+  <thread>1</thread>
+  <message>Error while calculating fixed bugs per month 
+</message>
+</record>
+<record>
+  <date>2021-04-10T09:42:23.703181Z</date>
+  <millis>1618047743703</millis>
+  <nanos>181000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>SEVERE</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>errorLog</method>
+  <thread>1</thread>
+  <message>java.net.ConnectException: Operation timed out
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:493)
+	at java.base/sun.nio.ch.Net.connect(Net.java:482)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:339)
+	at java.base/java.net.Socket.connect(Socket.java:585)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:290)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.protocol.https.HttpsClient.&lt;init&gt;(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:177)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:163)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224)
+	at java.base/java.net.URL.openStream(URL.java:1152)
+	at deliverableone.ParserJson.readJsonFromUrl(ParserJson.java:42)
+	at deliverableone.ParserJson.getIdFixedTicketList(ParserJson.java:67)
+	at deliverableone.CalculatingFixedBugs.run(CalculatingFixedBugs.java:266)
+	at deliverableone.MainClass.main(MainClass.java:24)
+</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-04-10T09:53:42.392550Z</date>
+  <millis>1618048422392</millis>
+  <nanos>550000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Starting operations to define the bugs...
+</message>
+</record>
+<record>
+  <date>2021-04-10T09:53:46.206593Z</date>
+  <millis>1618048426206</millis>
+  <nanos>593000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Monthly fixed bugs calculations ended succesfully! 
+</message>
+</record>
+<record>
+  <date>2021-04-10T09:53:46.207573Z</date>
+  <millis>1618048426207</millis>
+  <nanos>573000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Created CSV file: : MAHOUT.csv
+</message>
+</record>
+<record>
+  <date>2021-04-10T09:53:46.209808Z</date>
+  <millis>1618048426209</millis>
+  <nanos>808000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Monthly commits calculations ended succesfully! 
+</message>
+</record>
+<record>
+  <date>2021-04-10T09:53:46.210676Z</date>
+  <millis>1618048426210</millis>
+  <nanos>676000</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Created CSV file: MAHOUTCommits.csv
+</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-04-12T14:08:51.113120Z</date>
+  <millis>1618236531113</millis>
+  <nanos>120000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Starting operations to define the bugs...
+</message>
+</record>
+<record>
+  <date>2021-04-12T14:08:55.172394Z</date>
+  <millis>1618236535172</millis>
+  <nanos>394000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Monthly fixed bugs calculations ended succesfully! 
+</message>
+</record>
+<record>
+  <date>2021-04-12T14:08:55.173443Z</date>
+  <millis>1618236535173</millis>
+  <nanos>443000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Created CSV file: : MAHOUT.csv
+</message>
+</record>
+<record>
+  <date>2021-04-12T14:08:55.177017Z</date>
+  <millis>1618236535177</millis>
+  <nanos>17000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Monthly commits calculations ended succesfully! 
+</message>
+</record>
+<record>
+  <date>2021-04-12T14:08:55.178255Z</date>
+  <millis>1618236535178</millis>
+  <nanos>255000</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Created CSV file: MAHOUTCommits.csv
+</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-04-12T15:23:25.640310Z</date>
+  <millis>1618241005640</millis>
+  <nanos>310000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Starting operations to define the bugs...
+</message>
+</record>
+<record>
+  <date>2021-04-12T15:23:29.137134Z</date>
+  <millis>1618241009137</millis>
+  <nanos>134000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Monthly fixed bugs calculations ended succesfully! 
+</message>
+</record>
+<record>
+  <date>2021-04-12T15:23:29.138439Z</date>
+  <millis>1618241009138</millis>
+  <nanos>439000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Created CSV file: : MAHOUTfixedBugs.csv
+</message>
+</record>
+<record>
+  <date>2021-04-12T15:23:29.142113Z</date>
+  <millis>1618241009142</millis>
+  <nanos>113000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Monthly commits calculations ended succesfully! 
+</message>
+</record>
+<record>
+  <date>2021-04-12T15:23:29.143312Z</date>
+  <millis>1618241009143</millis>
+  <nanos>312000</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Created CSV file: MAHOUTCommits.csv
+</message>
+</record>
+</log>

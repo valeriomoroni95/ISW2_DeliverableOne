@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-13">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/Valerio/Desktop/ISPW2/File Jar progetto/java-json.jar"/>
+	<classpathentry kind="lib" path="/Users/Valerio/Desktop/ISPW2/File Jar progetto/org.eclipse.jgit-5.11.0.202103091610-r.jar"/>
+	<classpathentry kind="lib" path="/Users/Valerio/Desktop/ISPW2/File Jar progetto/opencsv-5.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Valerio/Desktop/ISPW2/File Jar progetto/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="/Users/Valerio/Desktop/ISPW2/File Jar progetto/slf4j-jdk14-1.7.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
