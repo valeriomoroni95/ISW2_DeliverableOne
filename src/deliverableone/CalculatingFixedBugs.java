@@ -43,7 +43,7 @@ public final class CalculatingFixedBugs {
 		
 		if(fixedCommits.isEmpty()) {                 
 			
-			ticketWithoutCommit += 1;
+			setTicketWithoutCommit(getTicketWithoutCommit() + 1);
 		
 		}else {
 			
@@ -72,7 +72,7 @@ public final class CalculatingFixedBugs {
 				if(commit.getFullMessage().contains((ticket + " "))) {        //prendi tutti i commit che contengono lo stesso ticket ID
 					fixedCommits.add(commit);
 					if(commit.getAuthorIdent().getWhen()== null) {
-						commitWithoutDate += 1;
+						setCommitWithoutDate(getCommitWithoutDate() + 1);
 					}
 				}
 			}
@@ -306,6 +306,22 @@ public static void getBugsPerMonth(List<Date> latestCommitsDates , BugHandler mo
 		
 		writeCsvCommitsPerMonth(csvCommitName);
 		
+	}
+
+	public static int getTicketWithoutCommit() {                        //getters and setters added to solve code smells.
+		return ticketWithoutCommit;
+	}
+
+	public static void setTicketWithoutCommit(int ticketWithoutCommit) {
+		CalculatingFixedBugs.ticketWithoutCommit = ticketWithoutCommit;
+	}
+
+	public static int getCommitWithoutDate() {
+		return commitWithoutDate;
+	}
+
+	public static void setCommitWithoutDate(int commitWithoutDate) {
+		CalculatingFixedBugs.commitWithoutDate = commitWithoutDate;
 	}   
 	
 }
