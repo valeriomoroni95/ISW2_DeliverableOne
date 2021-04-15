@@ -1,0 +1,1 @@
+sonar-scanner -Dsonar.organization=valeriomoroni95 -Dsonar.projectKey=valeriomoroni95_ISW2_DeliverableOne2 -Dsonar.sources=. -Dsonar.host.url=https://sonarcloud.io -Dsonar.java.binaries=src/deliverableone
