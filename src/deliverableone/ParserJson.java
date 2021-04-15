@@ -15,6 +15,10 @@ import java.util.List;
 
 public class ParserJson {
 	
+	private ParserJson() {
+		
+	}
+	
 	 private static String readAll(Reader rd) throws IOException {
 	     
 		 StringBuilder sb = new StringBuilder();

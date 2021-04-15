@@ -26,6 +26,10 @@ public final class CalculatingFixedBugs {
 	private static List<Date> latestCommitsDates ;  //date degli ultimi commit
 	
 	
+	private CalculatingFixedBugs() {
+		
+	}
+	
 	private static Calendar toCalendar(Date date){        //Creo un calendario prendendo la time zone locale
 		  Calendar calendar = Calendar.getInstance();
 		  calendar.setTime(date);
