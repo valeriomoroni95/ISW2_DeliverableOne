@@ -213,7 +213,7 @@ public final class CalculatingFixedBugs {
 			}
 			if(defDate.contentEquals(monthlyBugs.getDate())) {
 				
-				commitPerMonth = commitPerMonth+1;
+				commitPerMonth += 1;
 			}
 				
 		}

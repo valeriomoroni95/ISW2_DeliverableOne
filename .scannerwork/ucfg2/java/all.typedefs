@@ -108,12 +108,16 @@ println(C)java.io.PrintWriter#println(C)V/
 print(Ljava/lang/Object;).java.io.PrintWriter#print(Ljava/lang/Object;)VU
 <init>(Ljava/io/OutputStream;)3java.io.PrintWriter#<init>(Ljava/io/OutputStream;)VK
 <init>(Ljava/io/Writer;Z).java.io.PrintWriter#<init>(Ljava/io/Writer;Z)V/
-println([C) java.io.PrintWriter#println([C)V¼
-#deliverableone.CalculatingFixedBugsjava.lang.Object9
+println([C) java.io.PrintWriter#println([C)V¤
+#deliverableone.CalculatingFixedBugsjava.lang.ObjectU
+getCommitWithoutDate();deliverableone.CalculatingFixedBugs#getCommitWithoutDate()I9
 <init>()-deliverableone.CalculatingFixedBugs#<init>()V
 +writeCsvCommitsPerMonth(Ljava/lang/String;)Pdeliverableone.CalculatingFixedBugs#writeCsvCommitsPerMonth(Ljava/lang/String;)VY
-initializeBugsPerMonth()=deliverableone.CalculatingFixedBugs#initializeBugsPerMonth()Vy
-(writeCsvBugsPerMonth(Ljava/lang/String;)Mdeliverableone.CalculatingFixedBugs#writeCsvBugsPerMonth(Ljava/lang/String;)V{
+initializeBugsPerMonth()=deliverableone.CalculatingFixedBugs#initializeBugsPerMonth()VY
+getTicketWithoutCommit()=deliverableone.CalculatingFixedBugs#getTicketWithoutCommit()Iy
+(writeCsvBugsPerMonth(Ljava/lang/String;)Mdeliverableone.CalculatingFixedBugs#writeCsvBugsPerMonth(Ljava/lang/String;)VW
+setCommitWithoutDate(I)<deliverableone.CalculatingFixedBugs#setCommitWithoutDate(I)V[
+setTicketWithoutCommit(I)>deliverableone.CalculatingFixedBugs#setTicketWithoutCommit(I)V{
 )run(Ljava/lang/String;Ljava/lang/String;)Ndeliverableone.CalculatingFixedBugs#run(Ljava/lang/String;Ljava/lang/String;)Vt
 toCalendar(Ljava/util/Date;)Tdeliverableone.CalculatingFixedBugs#toCalendar(Ljava/util/Date;)Ljava/util/Calendar;(
 java.io.Serializablejava.lang.Object'

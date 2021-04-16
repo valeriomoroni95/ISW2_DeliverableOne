@@ -290,3 +290,141 @@
 </message>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-04-15T08:53:02.549328Z</date>
+  <millis>1618476782549</millis>
+  <nanos>328000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Starting operations to define the bugs...
+</message>
+</record>
+<record>
+  <date>2021-04-15T08:53:06.219090Z</date>
+  <millis>1618476786219</millis>
+  <nanos>90000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Monthly fixed bugs calculations ended succesfully! 
+</message>
+</record>
+<record>
+  <date>2021-04-15T08:53:06.220145Z</date>
+  <millis>1618476786220</millis>
+  <nanos>145000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Created CSV file: : MAHOUTfixedBugs.csv
+</message>
+</record>
+<record>
+  <date>2021-04-15T08:53:06.222450Z</date>
+  <millis>1618476786222</millis>
+  <nanos>450000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Monthly commits calculations ended succesfully! 
+</message>
+</record>
+<record>
+  <date>2021-04-15T08:53:06.223710Z</date>
+  <millis>1618476786223</millis>
+  <nanos>710000</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Created CSV file: MAHOUTCommits.csv
+</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-04-16T14:37:43.296518Z</date>
+  <millis>1618583863296</millis>
+  <nanos>518000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Starting operations to define the bugs...
+</message>
+</record>
+<record>
+  <date>2021-04-16T14:37:47.282790Z</date>
+  <millis>1618583867282</millis>
+  <nanos>790000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Monthly fixed bugs calculations ended succesfully! 
+</message>
+</record>
+<record>
+  <date>2021-04-16T14:37:47.284346Z</date>
+  <millis>1618583867284</millis>
+  <nanos>346000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Created CSV file: : MAHOUTfixedBugs.csv
+</message>
+</record>
+<record>
+  <date>2021-04-16T14:37:47.287586Z</date>
+  <millis>1618583867287</millis>
+  <nanos>586000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Monthly commits calculations ended succesfully! 
+</message>
+</record>
+<record>
+  <date>2021-04-16T14:37:47.288824Z</date>
+  <millis>1618583867288</millis>
+  <nanos>824000</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>deliverableone.LoggerClass</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Created CSV file: MAHOUTCommits.csv
+</message>
+</record>
+</log>
